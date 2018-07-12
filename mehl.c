@@ -184,8 +184,10 @@ int main(int argc, char **argv)
 	/* will never be reached */
 	tmp_elem = list;
 	while(0 != tmp_elem->next)
+	{
 		pthread_join( *((pthread_t*) tmp_elem->val), 0 );
-		tmp_elem = tmp_elem->next;
+	        tmp_elem = tmp_elem->next;
+	}
 
 	close(sock_listen);
 
