@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BINDIR	/home/discostu/Projects/mehl/Makefile	/^BINDIR=\/usr\/bin$/;"	m
+BINDIR	Makefile	/^BINDIR=\/usr\/bin$/;"	m
+BUF_SIZE	/home/discostu/Projects/mehl/mehl.c	34;"	d	file:
+BUF_SIZE	mehl.c	33;"	d	file:
+CC	/home/discostu/Projects/mehl/Makefile	/^CC=gcc$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	/home/discostu/Projects/mehl/Makefile	/^CFLAGS=-c -Wall --pedantic -g$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -Wall --pedantic -g$/;"	m
+EXECUTABLE	/home/discostu/Projects/mehl/Makefile	/^EXECUTABLE=mehl-server$/;"	m
+EXECUTABLE	Makefile	/^EXECUTABLE=mehl-server$/;"	m
+INIT_FAILED	parser.c	13;"	d	file:
+INIT_FAILED	parser.c	14;"	d	file:
+INIT_OK	parser.c	12;"	d	file:
+INIT_OK	parser.c	13;"	d	file:
+LDFLAGS	/home/discostu/Projects/mehl/Makefile	/^LDFLAGS=-lpthread -g$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-lpthread -g$/;"	m
+MAX_QUEUE	/home/discostu/Projects/mehl/mehl.c	33;"	d	file:
+MAX_QUEUE	mehl.c	32;"	d	file:
+MKVAL	/home/discostu/Projects/mehl/mehl.c	36;"	d	file:
+MK_ELEM	/home/discostu/Projects/mehl/mehl.c	36;"	d	file:
+NO_MATCH	parser.c	10;"	d	file:
+NO_MATCH	parser.c	8;"	d	file:
+NO_MATCH	parser.c	9;"	d	file:
+OBJECTS	/home/discostu/Projects/mehl/Makefile	/^OBJECTS=$(SOURCES:.c=.o)$/;"	m
+OBJECTS	Makefile	/^OBJECTS=$(SOURCES:.c=.o)$/;"	m
+P1	parser.c	8;"	d	file:
+P1	parser.c	9;"	d	file:
+PORT	/home/discostu/Projects/mehl/mehl.c	32;"	d	file:
+PORT	mehl.c	31;"	d	file:
+RET_ERR	parser.c	10;"	d	file:
+RET_ERR	parser.c	11;"	d	file:
+RET_ERR	parser.c	9;"	d	file:
+RET_FAILED	parser.c	12;"	d	file:
+SOURCES	/home/discostu/Projects/mehl/Makefile	/^SOURCES=mehl.c list.c parser.c$/;"	m
+SOURCES	Makefile	/^SOURCES=mehl.c list.c parser.c$/;"	m
+SOURCES	Makefile	/^SOURCES=mehl.c list.c$/;"	m
+_LIST_H	list.h	5;"	d
+__PARSER_H_Y	/home/discostu/Projects/mehl/parser.h	6;"	d
+__PARSER_H_Y	/home/discostu/Projects/mehl/parser.h	8;"	d
+a	/home/discostu/Projects/mehl/parser.h	/^	char *a;$/;"	m	struct:pair
+a	parser.c	/^	char *a;$/;"	m	struct:pair	file:
+answer	parser.c	/^	char *answer;$/;"	m	struct:pair	file:
+element	list.h	/^typedef struct element$/;"	s
+element_t	list.h	/^element_t;$/;"	t	typeref:struct:element
+exithandler	/home/discostu/Projects/mehl/mehl.c	/^void exithandler(int signr)$/;"	f
+exithandler	mehl.c	/^void exithandler(int signr)$/;"	f
+list	/home/discostu/Projects/mehl/mehl.c	/^element_t 			*list;$/;"	v
+list	/home/discostu/Projects/mehl/mehl.c	/^lement_t 			*list;$/;"	v
+list	mehl.c	/^element_t 			*list;$/;"	v
+list_append_element	list.c	/^void list_append_element(element_t *list, element_t *e)$/;"	f
+list_create_element	list.c	/^element_t *list_create_element()$/;"	f
+list_delete_element	list.c	/^void list_delete_element(element_t *e)$/;"	f
+list_length	list.c	/^int list_length(element_t* list)$/;"	f
+list_pop	list.c	/^element_t *list_pop(element_t *list)$/;"	f
+list_remove_element	list.c	/^int list_remove_element(element_t *list, element_t *e)$/;"	f
+main	/home/discostu/Projects/mehl/mehl.c	/^int main(int argc, char **argv)$/;"	f
+main	mehl.c	/^int main(int argc, char **argv)$/;"	f
+mehl_thread	/home/discostu/Projects/mehl/mehl.c	/^void *mehl_thread(void *s)$/;"	f
+mehl_thread	mehl.c	/^void *mehl_thread(void *s)$/;"	f
+next	list.h	/^	struct element 	*next;$/;"	m	struct:element	typeref:struct:element::element
+pair	/home/discostu/Projects/mehl/parser.h	/^struct pair {$/;"	s
+pair	parser.c	/^struct pair {$/;"	s	file:
+pair1	/home/discostu/Projects/mehl/parser.h	/^pair1 = {"question", "answer"}$/;"	v	typeref:struct:pair
+pair_t	/home/discostu/Projects/mehl/parser.h	/^} typedef pair_t;$/;"	t
+pairs	/home/discostu/Projects/mehl/parser.h	/^pair_t pairs = {$/;"	v
+pairs	/home/discostu/Projects/mehl/parser.h	/^pair_t pairs[] = {$/;"	v
+pairss	/home/discostu/Projects/mehl/parser.h	/^pair_t pairss[] = {$/;"	v
+parse	parser.c	/^char* parse(char* s)$/;"	f
+parse	parser.c	/^parse(char* s)$/;"	f
+parser	parser.c	/^char* parser(char* s)$/;"	f
+parser_init	parser.c	/^parser_init()$/;"	f
+parser_init	parser.c	/^void parser_init(parser *p)$/;"	f
+parser_pairs	/home/discostu/Projects/mehl/parser.h	/^pair_t parser_pairs[] = {$/;"	v
+parser_pairs	parser.c	/^pair_t parser_pairs[] = {$/;"	v
+parser_pairs	parser.c	/^static pair_t parser_pairs[] = {$/;"	v	file:
+q	/home/discostu/Projects/mehl/parser.h	/^	char *q;$/;"	m	struct:pair
+q	parser.c	/^	char *q;$/;"	m	struct:pair	file:
+question	parser.c	/^	char *question;$/;"	m	struct:pair	file:
+r	/home/discostu/Projects/mehl/parser.h	/^	regex_t	*r;$/;"	m	struct:pair
+reg_compiled	parser.c	/^static bool reg_compiled = 0;$/;"	v	file:
+reg_compiled	parser.c	/^static bool reg_compiled = false;$/;"	v	file:
+reg_compiled	parser.c	/^static int reg_compiled = 0;$/;"	v	file:
+sock_listen	/home/discostu/Projects/mehl/mehl.c	/^int 				 sock_listen;$/;"	v
+sock_listen	mehl.c	/^int 				 sock_listen;$/;"	v
+val	list.h	/^	void 			*val;$/;"	m	struct:element
