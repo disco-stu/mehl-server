@@ -18,7 +18,7 @@ gcc -lpthread -g mehl.o list.o parser.o -o mehl-server
 
 After building the server, starting the server is easy as:
 ```
-./mehl-server
+$ ./mehl-server
 ```
 
 # Connect
@@ -26,7 +26,7 @@ After building the server, starting the server is easy as:
 To connect to your own instance of mehl-server you user e.g. telnet:
 
 ```
-telnet localhost 6363
+$ telnet localhost 6363
 ```
 
 # License
